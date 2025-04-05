@@ -1,0 +1,13 @@
+[
+  {
+    "WorkflowName": "CaseStateWorkflow",
+    "Rules": [
+      {
+        "RuleName": "AllowTransition",
+        "Expression": "Action == 'Submit' && CurrentState == 'Unsubmitted'",
+        "SuccessEvent": "TransitionAllowed",
+        "ErrorMessage": "Action not allowed from current state."
+      }
+    ]
+  }
+]

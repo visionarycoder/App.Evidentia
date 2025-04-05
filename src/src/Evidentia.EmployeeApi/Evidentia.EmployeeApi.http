@@ -1,0 +1,6 @@
+@Evidentia.EmployeeApi_HostAddress = http://localhost:5122
+
+GET {{Evidentia.EmployeeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

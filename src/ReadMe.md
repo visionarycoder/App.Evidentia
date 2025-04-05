@@ -1,1 +1,0 @@
-# Place your projects in this folder.

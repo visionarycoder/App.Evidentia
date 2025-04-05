@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Server" Version="9.1.2" />
+    <PackageReference Include="RulesEngine" Version="5.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evidentia.Domain\Evidentia.Domain.csproj" />
+    <ProjectReference Include="..\Evidentia.Ifx\Evidentia.Ifx.csproj" />
+    <ProjectReference Include="..\Evidentia.Rules\Evidentia.Rules.csproj" />
+    <ProjectReference Include="..\Evidentia.Storage\Evidentia.Storage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+
+</Project>
